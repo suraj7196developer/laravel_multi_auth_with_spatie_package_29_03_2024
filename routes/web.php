@@ -29,7 +29,7 @@ Route::get('user-datatables', function () {
 });
 
 /*For Normal User: Used in frontend Login*/
-Route::group(['middleware' => 'disable_back_btn_for_user'], function () {
+Route::group(['middleware' => 'disable_back_btn_for_user', 'isVerified'], function () {
     Route::middleware(['auth:web,sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
         Route::get('/dashboard', function () {
             return view('userdashboard/index');

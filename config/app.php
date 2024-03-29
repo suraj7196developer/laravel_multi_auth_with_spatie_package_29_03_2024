@@ -198,6 +198,7 @@ return [
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
+        Jrean\UserVerification\UserVerificationServiceProvider::class,
     ],
 
     /*
@@ -215,6 +216,7 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
+        'UserVerification' => Jrean\UserVerification\Facades\UserVerification::class,
     ])->toArray(),
 
 ];
