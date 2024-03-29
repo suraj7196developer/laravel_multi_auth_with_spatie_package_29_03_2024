@@ -1,0 +1,20 @@
+Link 1, 2 & 3 are used for Serverside Datatable and 4 is used for Readmore
+1- https://tutorial101.blogspot.com/2022/07/laravel-datatables-yajra-server-side.html
+2- https://yajrabox.com/docs/laravel-datatables/master/installation
+3- https://www.youtube.com/watch?v=5mcmSFJwcOc
+4- https://stackoverflow.com/questions/36937934/how-to-display-only-first-30-characters-in-data-table-column-and-than-place-read
+
+return Role::latest('id')->pluck('id')->first();
+
+Link for generate fake data (All datatypes)
+https://github.com/fzaninotto/Faker
+
+/*Change Logs*/
+MyNewLaravelMultiAuthTeam_18112022.zip file contains the Updated fiel with roles permission and ajax datatable.
+
+Laravel User Management System | Roles and Permissions | User Login and register | Part #1 IN HINDI
+https://www.youtube.com/watch?v=n6dbJqv-ZG8&list=WL&index=1
+
+
+https://www.youtube.com/playlist?list=PLT51dtioU1pPNxwwo3dWfkUCKI2BXnc_H
+https://github.com/AjayYadavAi/laravel-starter
