@@ -199,6 +199,7 @@ return [
         App\Providers\JetstreamServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
         Jrean\UserVerification\UserVerificationServiceProvider::class,
+        Davmixcool\MetaManager\MetaServiceProvider::class,
     ],
 
     /*

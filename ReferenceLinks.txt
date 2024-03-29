@@ -19,5 +19,10 @@ https://www.youtube.com/watch?v=n6dbJqv-ZG8&list=WL&index=1
 https://www.youtube.com/playlist?list=PLT51dtioU1pPNxwwo3dWfkUCKI2BXnc_H
 https://github.com/AjayYadavAi/laravel-starter
 
-Laravel User Verifications1231
+Laravel User Verifications
 https://github.com/jrean/laravel-user-verification
+
+Laravel Meta Manager
+https://github.com/davmixcool/laravel-meta-manager
+
+https://laraveldaily.com/packages
